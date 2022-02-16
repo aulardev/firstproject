@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+
+}
+
+
+/* NAV */
+
+.nav {
+
+    
+    height: 10vh;
+    position: sticky
+    
+}
+
+.nav__links 
+
+{
+    list-style: none;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.nav__link {
+
+    text-decoration: none;
+}
+
+.nav__item 
+
+{
+    
+    display:inline-block
+    
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    background-image: url('../images/shahadat-rahman-BfrQnKBulYQ-unsplash.png');
+    background-size: cover;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 0 20px;
+    
+
+}
+
+/* MAIN */
+
+.profile 
+
+{
+    height: 400px;
+    background-color: gainsboro 
+    
+}
+
+.profile title 
+{
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+     
+    
+}
+
+h2 {
+    color: black;
+    padding: 0 20px;
+}
+
+h3 
+{
+    color: white;
+    
+}
+
+p 
+{
+    padding: 0 20px;
+}
+
+.profile, .profile__title, .profile text 
+
+{
+
+margin-top: 25px;
+height: 60vh;    
+padding-left: 30%;
+display: flex;
+justify-content:space-around
+
+
+
+}
+
+
+
+/* GRID */
+
+.grid-galeria 
+
+{
+    grid-template-columns: repeat(2, 1fr) ;
+    row-gap: 15px;
+    width: 80% ;
+    height: 75vh  ;
+    display: grid
+    
+    
+}
+
+
+
+/*Contenedor padre trabajos */
+
+.container {
+
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between
+}
+
+
+
+/*contenedor hijos trabajos */ 
+
+.container__works 
+{
+    color: white;
+}
+
+
+/* FOOTER */
+
+.footer
+ {
+    height: 25vh;
+    background-color: white;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+
+.social 
+{
+   padding-left: 80% 
+}
+
+@media screen and (max-width: 320px) {
+    .profile, .profile__title, .profile text 
+
+{
+
+margin-top: 25px;
+height: 60vh;    
+padding-left: 30%;
+flex-direction: column;
+justify-content:space-around }
+    
+}

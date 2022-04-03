@@ -41,30 +41,16 @@
     <main>
 
         <section class="container">
-            <h1>Contactame</h1>
-            <h3> Dejanos tus datos y cuentame acerca del proyecto que tienes en mente. Te contactare a la brevedad
-                posible
-            </h3>
-            <br>
-            <br>
-            <form action="" method="post">
-                <label for="nombre y apellido">Nombre y apellido</label>
-                <input type="text" required>
-                <br>
-                <label for="">Mail</label>
-                <input type="email" required>
-                <br>
-                <label for="Teléfono">Teléfono</label>
-                <input type="text" required>
-                <br>
-                <br>
-                <label for=""> Comentanos tu idea </label>
-                <br>
-                <textarea name="" id="" cols="50" rows="10"></textarea>
-                <br>
+            <form class="form">
+                <div class="form__container">
+                    <h2 class="subtitle"> Contáctame </h2>
+                    <input type="text" class="form__input" placeholder="Nombre:">
+                    <input type="email" class="form__input" placeholder="Email:">
+                    <textarea class="form__input form__input--mesagge" placeholder="Mensaje:"></textarea>
 
-                <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="form__cta">
 
+                </div>
             </form>
 
         </section>
@@ -81,15 +67,18 @@
 
                 <h3 class="footer__title"> Mis redes </h3>
 
-                <ul class="social">
+                <ul class="footer__social">
                     <li>
-                        <a href="" class="facebook"> <i class="fa-brands fa-facebook-square"></i> Facebook </a>
+                        <a href="https://www.facebook.com/cesar.aularbelizario/" class="footer__icon"> <i
+                                class="fa-brands fa-facebook-square"></i> Facebook </a>
                     </li>
                     <li>
-                        <a href="" class="twitter"><i class="fa-brands fa-twitter"></i> Twitter </a>
+                        <a href="https://twitter.com/CesarAular" class="footer__icon"><i
+                                class="fa-brands fa-twitter"></i> Twitter </a>
                     </li>
                     <li>
-                        <a href="" class="instagram"><i class="fa-brands fa-instagram"></i> Instagram </a>
+                        <a href="https://www.instagram.com/aular.ces/" class="footer__icon"><i
+                                class="fa-brands fa-instagram"></i> Instagram </a>
                     </li>
                 </ul>
             </section>
